@@ -22,3 +22,12 @@ Most resume screeners stop at one similarity number. This system uses a **Hybrid
 | **Experience Match** | Regex-extracted years of experience vs. JD minimum | 20% |
 
 Each candidate's final score breaks down into these three components, plus a list of exactly which required/preferred skills are missing — e.g.:
+**Example output:**
+```
+#1 Rohan_11 (Data Scientist): Final Score: 82.1% | Skill Match: 94%
+(6 required, 4 preferred) | Semantic Fit: 50% | Experience: 3y
+
+#2 Priya_2 (Data Scientist): Final Score: 75.8% | Skill Match: 82%
+(5 required, 4 preferred) | Semantic Fit: 49% | Experience: 5y
+MISSING (required): pandas
+```
